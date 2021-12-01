@@ -28,7 +28,7 @@ Or install it yourself as:
 After that, you will need to tell F(x) to use this adapter in an initializer `config/initializer/fx.rb`:
 
 ```ruby
-# frozen_string_litearl: true
+# frozen_string_literal: true
 
 require 'fx/adapters/sqlserver'
 if defined?(Fx)
