@@ -8,7 +8,7 @@ This adapter makes possible to use sqlserver database functions/procedures _(und
 
 ## Installation
 
-Add this line to gemfile
+Add this line your gemfile
 
 ```ruby
 gem 'fx'
@@ -25,7 +25,7 @@ Or install it yourself as:
 
 ## Usage
 
-After that, you will need to tell F(x) to use this adapter in an initializer `config/initializer/fx.rb`:
+After that you will need to tell F(x) to use this adapter in an initializer `config/initializer/fx.rb`:
 
 ```ruby
 # frozen_string_literal: true
