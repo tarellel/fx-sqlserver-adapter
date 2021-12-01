@@ -1,6 +1,6 @@
 # F(x) Sqlserver Adapter
 
-A Sqlserver adapter for [fx](https://github.com/teoljungberg/fx) gem
+A Sqlserver adapter for the [fx](https://github.com/teoljungberg/fx) gem
 
 ## Features
 
