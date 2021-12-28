@@ -130,7 +130,6 @@ module Fx
       def drop_trigger(name, *_opts, on: '', **_options)
         execute <<~SQL
           DROP TRIGGER IF EXISTS #{name};
-          GO
         SQL
       end
 

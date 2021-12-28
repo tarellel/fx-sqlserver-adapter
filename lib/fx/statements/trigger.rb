@@ -64,7 +64,7 @@ module Fx
       # @example Drop a trigger, rolling back to version 3 on rollback
       #   drop_trigger(:log_inserts, on: :users, revert_to_version: 3)
       #
-      def drop_trigger(name, *_opts, on:, revert_to_version: nil)
+      def drop_trigger(name, *_opts, on: nil, revert_to_version: nil)
         Fx.database.drop_trigger(name, on: on)
       end
 
